@@ -13,6 +13,7 @@
 		486D389028AEAB6C0077D72D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D388E28AEAB6C0077D72D /* Main.storyboard */; };
 		486D389228AEAB700077D72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486D389128AEAB700077D72D /* Assets.xcassets */; };
 		486D389528AEAB700077D72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486D389328AEAB700077D72D /* LaunchScreen.storyboard */; };
+		486D389E28AFA3ED0077D72D /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486D389D28AFA3ED0077D72D /* Montserrat.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		486D389128AEAB700077D72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486D389428AEAB700077D72D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486D389628AEAB700077D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486D389D28AFA3ED0077D72D /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
+		486D38A028B070D70077D72D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		486D38A528B0728A0077D72D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,17 @@
 				486D389128AEAB700077D72D /* Assets.xcassets */,
 				486D389328AEAB700077D72D /* LaunchScreen.storyboard */,
 				486D389628AEAB700077D72D /* Info.plist */,
+				486D389C28AFA3A20077D72D /* Fonts */,
 			);
 			path = assignment3;
+			sourceTree = "<group>";
+		};
+		486D389C28AFA3A20077D72D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				486D389D28AFA3ED0077D72D /* Montserrat.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 486D387C28AEAB6C0077D72D;
 			productRefGroup = 486D388628AEAB6C0077D72D /* Products */;
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486D389E28AFA3ED0077D72D /* Montserrat.ttf in Resources */,
 				486D389528AEAB700077D72D /* LaunchScreen.storyboard in Resources */,
 				486D389228AEAB700077D72D /* Assets.xcassets in Resources */,
 				486D389028AEAB6C0077D72D /* Main.storyboard in Resources */,
@@ -151,6 +166,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				486D388F28AEAB6C0077D72D /* Base */,
+				486D38A528B0728A0077D72D /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				486D389428AEAB700077D72D /* Base */,
+				486D38A028B070D70077D72D /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -290,6 +309,7 @@
 				DEVELOPMENT_TEAM = 752982GXVG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assignment3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RentalCar;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +338,7 @@
 				DEVELOPMENT_TEAM = 752982GXVG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assignment3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RentalCar;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

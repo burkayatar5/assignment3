@@ -1,0 +1,36 @@
+//-TODO: Açıklama metni gelmiyor bu dosyada
+/* Class = "UILabel"; text = "4₺/Km"; ObjectID = "HDy-7x-q5u"; */
+"HDy-7x-q5u.text" = "4₺/Km";
+
+/* Class = "UILabel"; text = "5 Sits"; ObjectID = "Hfo-Gw-9e7"; */
+"Hfo-Gw-9e7.text" = "5 Koltuk";
+
+/* Class = "UILabel"; text = "Specifications"; ObjectID = "Iks-D0-K5M"; */
+"Iks-D0-K5M.text" = "Araç Özellikleri";
+
+/* Class = "UILabel"; text = "4.5"; ObjectID = "IwB-i2-UtG"; */
+"IwB-i2-UtG.text" = "4.5";
+
+/* Class = "UILabel"; text = "129 HP"; ObjectID = "Kk9-w3-IH3"; */
+"Kk9-w3-IH3.text" = "129 HP";
+
+/* Class = "UILabel"; text = "2 mins to go"; ObjectID = "PkT-a5-nSN"; */
+"PkT-a5-nSN.text" = "2 Dakikalık Mesafe";
+
+/* Class = "UILabel"; text = "Volkswagen Polo"; ObjectID = "T7f-hX-Ky4"; */
+"T7f-hX-Ky4.text" = "Volkswagen Polo";
+
+/* Class = "UILabel"; text = "50 % Fuel"; ObjectID = "Wu6-xz-ldA"; */
+"Wu6-xz-ldA.text" = "50 % Dolu Depo";
+
+/* Class = "UILabel"; text = "Conditioner"; ObjectID = "bct-v7-eYJ"; */
+"bct-v7-eYJ.text" = "Klima";
+
+/* Class = "UIButton"; configuration.title = "Pick a car"; ObjectID = "tSa-P5-U7G"; */
+"tSa-P5-U7G.configuration.title" = "Arabayı Seç";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tSa-P5-U7G"; */
+"tSa-P5-U7G.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Newest Multimedia"; ObjectID = "v2U-jz-0qx"; */
+"v2U-jz-0qx.text" = "En Yeni Multimedya";
